@@ -20,3 +20,7 @@ Cada clase implementa el método:
 
 ```java
 public static void sort(int[] a)
+
+## 👤 Autor
+**Daniel**  
+GitHub: [@Dan1el17](https://github.com/Dan1el17)
