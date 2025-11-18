@@ -1,0 +1,190 @@
+=== Algoritmo de Inserción mediante trazas ===
+Conjunto A: original = [8, 3, 6, 3, 9]
+Iteración 1: [3, 8, 6, 3, 9]
+Iteración 2: [3, 6, 8, 3, 9]
+Iteración 3: [3, 3, 6, 8, 9]
+Iteración 4: [3, 3, 6, 8, 9]
+Total de movimientos: 4
+Resultado final: [3, 3, 6, 8, 9]
+
+Conjunto B: original = [5, 4, 3, 2, 1]
+Iteración 1: [4, 5, 3, 2, 1]
+Iteración 2: [3, 4, 5, 2, 1]
+Iteración 3: [2, 3, 4, 5, 1]
+Iteración 4: [1, 2, 3, 4, 5]
+Total de movimientos: 10
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto C: original = [1, 2, 3, 4, 5]
+Iteración 1: [1, 2, 3, 4, 5]
+Iteración 2: [1, 2, 3, 4, 5]
+Iteración 3: [1, 2, 3, 4, 5]
+Iteración 4: [1, 2, 3, 4, 5]
+Total de movimientos: 0
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto D: original = [2, 2, 2, 2]
+Iteración 1: [2, 2, 2, 2]
+Iteración 2: [2, 2, 2, 2]
+Iteración 3: [2, 2, 2, 2]
+Total de movimientos: 0
+Resultado final: [2, 2, 2, 2]
+
+Conjunto E: original = [9, 1, 8, 2]
+Iteración 1: [1, 9, 8, 2]
+Iteración 2: [1, 8, 9, 2]
+Iteración 3: [1, 2, 8, 9]
+Total de movimientos: 4
+Resultado final: [1, 2, 8, 9]
+
+Conjunto F: original = [-3, -1, 0, 2]
+Iteración 1: [-3, -1, 0, 2]
+Iteración 2: [-3, -1, 0, 2]
+Iteración 3: [-3, -1, 0, 2]
+Total de movimientos: 0
+Resultado final: [-3, -1, 0, 2]
+
+Conjunto G: original = [5, 9, -4, 0, -1, 1, -2]
+Iteración 1: [5, 9, -4, 0, -1, 1, -2]
+Iteración 2: [-4, 5, 9, 0, -1, 1, -2]
+Iteración 3: [-4, 0, 5, 9, -1, 1, -2]
+Iteración 4: [-4, -1, 0, 5, 9, 1, -2]
+Iteración 5: [-4, -1, 0, 1, 5, 9, -2]
+Iteración 6: [-4, -2, -1, 0, 1, 5, 9]
+Total de movimientos: 14
+Resultado final: [-4, -2, -1, 0, 1, 5, 9]
+
+Conjunto H: original = [1]
+Total de movimientos: 0
+Resultado final: [1]
+
+Conjunto I: original = []
+Total de movimientos: 0
+Resultado final: []
+
+=== Algoritmo de Selección mediante trazas ===
+Conjunto A: original = [8, 3, 6, 3, 9]
+Iteración 0: [3, 8, 6, 3, 9]
+Iteración 1: [3, 3, 6, 8, 9]
+Iteración 2: [3, 3, 6, 8, 9]
+Iteración 3: [3, 3, 6, 8, 9]
+Total de intercambios: 2
+Resultado final: [3, 3, 6, 8, 9]
+
+Conjunto B: original = [5, 4, 3, 2, 1]
+Iteración 0: [1, 4, 3, 2, 5]
+Iteración 1: [1, 2, 3, 4, 5]
+Iteración 2: [1, 2, 3, 4, 5]
+Iteración 3: [1, 2, 3, 4, 5]
+Total de intercambios: 2
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto C: original = [1, 2, 3, 4, 5]
+Iteración 0: [1, 2, 3, 4, 5]
+Iteración 1: [1, 2, 3, 4, 5]
+Iteración 2: [1, 2, 3, 4, 5]
+Iteración 3: [1, 2, 3, 4, 5]
+Total de intercambios: 0
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto D: original = [2, 2, 2, 2]
+Iteración 0: [2, 2, 2, 2]
+Iteración 1: [2, 2, 2, 2]
+Iteración 2: [2, 2, 2, 2]
+Total de intercambios: 0
+Resultado final: [2, 2, 2, 2]
+
+Conjunto E: original = [9, 1, 8, 2]
+Iteración 0: [1, 9, 8, 2]
+Iteración 1: [1, 2, 8, 9]
+Iteración 2: [1, 2, 8, 9]
+Total de intercambios: 2
+Resultado final: [1, 2, 8, 9]
+
+Conjunto F: original = [-3, -1, 0, 2]
+Iteración 0: [-3, -1, 0, 2]
+Iteración 1: [-3, -1, 0, 2]
+Iteración 2: [-3, -1, 0, 2]
+Total de intercambios: 0
+Resultado final: [-3, -1, 0, 2]
+
+Conjunto G: original = [5, 9, -4, 0, -1, 1, -2]
+Iteración 0: [-4, 9, 5, 0, -1, 1, -2]
+Iteración 1: [-4, -2, 5, 0, -1, 1, 9]
+Iteración 2: [-4, -2, -1, 0, 5, 1, 9]
+Iteración 3: [-4, -2, -1, 0, 5, 1, 9]
+Iteración 4: [-4, -2, -1, 0, 1, 5, 9]
+Iteración 5: [-4, -2, -1, 0, 1, 5, 9]
+Total de intercambios: 4
+Resultado final: [-4, -2, -1, 0, 1, 5, 9]
+
+Conjunto H: original = [1]
+Total de intercambios: 0
+Resultado final: [1]
+
+Conjunto I: original = []
+Total de intercambios: 0
+Resultado final: []
+
+=== Algoritmo Burbuja mediante trazas ===
+Conjunto A: original = [8, 3, 6, 3, 9]
+Iteración 0: [3, 6, 3, 8, 9]
+Iteración 1: [3, 3, 6, 8, 9]
+Iteración 2: [3, 3, 6, 8, 9]
+→ Corte en la iteración 2
+Total de intercambios: 4
+Resultado final: [3, 3, 6, 8, 9]
+
+Conjunto B: original = [5, 4, 3, 2, 1]
+Iteración 0: [4, 3, 2, 1, 5]
+Iteración 1: [3, 2, 1, 4, 5]
+Iteración 2: [2, 1, 3, 4, 5]
+Iteración 3: [1, 2, 3, 4, 5]
+Total de intercambios: 10
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto C: original = [1, 2, 3, 4, 5]
+Iteración 0: [1, 2, 3, 4, 5]
+→ Corte en la iteración 0
+Total de intercambios: 0
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto D: original = [2, 2, 2, 2]
+Iteración 0: [2, 2, 2, 2]
+→ Corte en la iteración 0
+Total de intercambios: 0
+Resultado final: [2, 2, 2, 2]
+
+Conjunto E: original = [9, 1, 8, 2]
+Iteración 0: [1, 8, 2, 9]
+Iteración 1: [1, 2, 8, 9]
+Iteración 2: [1, 2, 8, 9]
+→ Corte en la iteración 2
+Total de intercambios: 4
+Resultado final: [1, 2, 8, 9]
+
+Conjunto F: original = [-3, -1, 0, 2]
+Iteración 0: [-3, -1, 0, 2]
+→ Corte en la iteración 0
+Total de intercambios: 0
+Resultado final: [-3, -1, 0, 2]
+
+Conjunto G: original = [5, 9, -4, 0, -1, 1, -2]
+Iteración 0: [5, -4, 0, -1, 1, -2, 9]
+Iteración 1: [-4, 0, -1, 1, -2, 5, 9]
+Iteración 2: [-4, -1, 0, -2, 1, 5, 9]
+Iteración 3: [-4, -1, -2, 0, 1, 5, 9]
+Iteración 4: [-4, -2, -1, 0, 1, 5, 9]
+Iteración 5: [-4, -2, -1, 0, 1, 5, 9]
+→ Corte en la iteración 5
+Total de intercambios: 14
+Resultado final: [-4, -2, -1, 0, 1, 5, 9]
+
+Conjunto H: original = [1]
+Total de intercambios: 0
+Resultado final: [1]
+
+Conjunto I: original = []
+Total de intercambios: 0
+Resultado final: []
+
