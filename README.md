@@ -33,14 +33,15 @@ Este proyecto implementa tres algoritmos clásicos de ordenamiento en Java: **in
 
 ## 🧪 Casos borde probados
 
-- Arreglo vacío: `{}`
-- Un solo elemento: `{7}`
-- Arreglo ordenado: `{1, 2, 3, 4, 5}`
-- Arreglo en orden inverso: `{5, 4, 3, 2, 1}`
-- Elementos duplicados: `{2, 2, 2, 2}`
-- Mezcla de valores altos y bajos: `{9, 1, 8, 2}`
-- Números negativos agregado como prueba adicional: `{-3, -1, 0, 2}`
-
+- Arreglo desordenado con duplicados: {8, 3, 6, 3, 9}
+- Arreglo en orden inverso: {5, 4, 3, 2, 1}
+- Arreglo ya ordenado: {1, 2, 3, 4, 5}
+- Todos los elementos iguales: {2, 2, 2, 2}
+- Mezcla de valores altos y bajos: {9, 1, 8, 2}
+- Números negativos y positivos: {-3, -1, 0, 2}
+- Mezcla extensa con negativos y positivos: {5, 9, -4, 0, -1, 1, -2}
+- Un solo elemento: {1}
+- Arreglo vacío: {}
 ---
 
 Cada clase implementa el método:
