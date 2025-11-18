@@ -1,12 +1,12 @@
 # Ordenacion_Java: Burbuja, Selección e Inserción
 
-## 🎯 Objetivo
+##  Objetivo
 
 Implementar y comparar tres algoritmos de ordenación **in-place** sobre arreglos pequeños, validando su funcionamiento con trazas y casos de prueba reproducibles.
 
 ---
 
-## 🧱 Estructura del proyecto
+## Estructura del proyecto
 
 El proyecto está organizado en el paquete `ed.u2.sorting`, con las siguientes clases:
 
@@ -16,13 +16,13 @@ El proyecto está organizado en el paquete `ed.u2.sorting`, con las siguientes c
 - `SortingDemo`: clase principal para ejecutar pruebas
 - `SortingUtils`: utilidad auxiliar 
 
-# 🧮 Taller 5 – Algoritmos de Ordenamiento
+#  Taller 5 – Algoritmos de Ordenamiento
 
 Este proyecto implementa tres algoritmos clásicos de ordenamiento en Java: **inserción**, **selección** y **burbuja**, aplicados sobre arreglos de enteros. Se incluye trazado opcional y generación de resultados en consola y archivo `.txt`.
 
 ---
 
-## ✅ Decisiones de implementación
+##  Decisiones de implementación
 
 - Se usó **sobrecarga de métodos** (`ordenar(...)`) para permitir trazas sin duplicar nombres.
 - Se creó una clase auxiliar `SortingUtils` para evitar repetir código (imprimir, clonar, comparar).
@@ -33,7 +33,7 @@ Este proyecto implementa tres algoritmos clásicos de ordenamiento en Java: **in
 
 ---
 
-## 🧪 Casos borde probados
+##  Casos borde probados
 
 - Arreglo desordenado con duplicados: {8, 3, 6, 3, 9}
 - Arreglo en orden inverso: {5, 4, 3, 2, 1}
@@ -57,7 +57,7 @@ public static void ordenar(int[] arreglo, boolean traza)
 ```
 Ordena el arreglo y muestra el estado paso a paso si traza es true.
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Descarga el zip del proyecto
 2. Abre el proyecto en tu entorno Java (VS Code, IntelliJ, etc.).
@@ -66,7 +66,7 @@ Ordena el arreglo y muestra el estado paso a paso si traza es true.
 5. Verás los resultados en consola y se generará el archivo `resultados.txt` dentro de la raíz del proyecto.
 
 ---
-## 👤 Autor
+##  Autores
 ### [Steeven Pardo](https://github.com/Dan1el17)
 ### [Darwin Correa](https://github.com/Darwin090)
 
