@@ -58,12 +58,11 @@ public static void ordenar(int[] arreglo, boolean traza)
 Ordena el arreglo y muestra el estado paso a paso si traza es true.
 
 ## Cómo ejecutar el proyecto
-
-1. Descarga el zip del proyecto
-2. Abre el proyecto en tu entorno Java (VS Code, IntelliJ, etc.).
-3. Compila todas las clases dentro del paquete `ed.u2.sorting`.
-4. Ejecuta la clase `SortingDemo`.
-5. Verás los resultados en consola y se generará el archivo `resultados.txt` dentro de la raíz del proyecto.
+Descargar y usar el JDk 23-24 
+1. Descargue el zip del proyecto
+2. Abra el proyecto en IntelliJ
+3. Compilar todas las clases dentro del paquete `ed.u2.sorting`.
+4. Ejecutar la clase `SortingDemo`.
 
 ---
 ##  Autores
