@@ -14,6 +14,7 @@ El proyecto está organizado en el paquete `ed.u2.sorting`, con las siguientes c
 - `SelectionSort`: ordenación por selección
 - `BubbleSort`: ordenación por burbuja con corte temprano
 - `SortingDemo`: clase principal para ejecutar pruebas
+- `SortingUtils`: utilidad auxiliar 
 
 #  Taller 5 – Algoritmos de Ordenamiento
 
@@ -28,6 +29,7 @@ Este proyecto implementa tres algoritmos clásicos de ordenamiento en Java: **in
 - Los algoritmos están separados en clases individuales para facilitar pruebas y claridad.
 - Se implementó una clase principal `SortingDemo` que ejecuta todos los algoritmos sobre varios conjuntos de datos.
 - Se genera un archivo `resultados.txt` con los resultados finales, además de mostrarlos en consola.
+- Tambien se genera un archivo `resultadosTrazas.txt` con los resultados finales y las trazas que se realizaron, además de mostrarlos en consola.
 
 ---
 
