@@ -22,5 +22,4 @@ Cada clase implementa el método:
 public static void sort(int[] a)
 
 ## 👤 Autor
-**Daniel**  
-GitHub: [@Dan1el17](https://github.com/Dan1el17)
+### [Steeven Pardo](https://github.com/Dan1el17)
