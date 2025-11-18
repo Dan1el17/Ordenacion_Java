@@ -1,0 +1,86 @@
+---BIENVENIDO---
+---TALLER 5: GRUPO D---
+=== Ordenamiento usando el algoritmo de Inserción ===
+Conjunto A: original = [8, 3, 6, 3, 9]
+Resultado final: [3, 3, 6, 8, 9]
+
+Conjunto B: original = [5, 4, 3, 2, 1]
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto C: original = [1, 2, 3, 4, 5]
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto D: original = [2, 2, 2, 2]
+Resultado final: [2, 2, 2, 2]
+
+Conjunto E: original = [9, 1, 8, 2]
+Resultado final: [1, 2, 8, 9]
+
+Conjunto F: original = [-3, -1, 0, 2]
+Resultado final: [-3, -1, 0, 2]
+
+Conjunto G: original = [5, 9, -4, 0, -1, 1, -2]
+Resultado final: [-4, -2, -1, 0, 1, 5, 9]
+
+Conjunto H: original = [1]
+Resultado final: [1]
+
+Conjunto I: original = []
+Resultado final: []
+
+=== Ordenamiento usando el algoritmo de Selección ===
+Conjunto A: original = [8, 3, 6, 3, 9]
+Resultado final: [3, 3, 6, 8, 9]
+
+Conjunto B: original = [5, 4, 3, 2, 1]
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto C: original = [1, 2, 3, 4, 5]
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto D: original = [2, 2, 2, 2]
+Resultado final: [2, 2, 2, 2]
+
+Conjunto E: original = [9, 1, 8, 2]
+Resultado final: [1, 2, 8, 9]
+
+Conjunto F: original = [-3, -1, 0, 2]
+Resultado final: [-3, -1, 0, 2]
+
+Conjunto G: original = [5, 9, -4, 0, -1, 1, -2]
+Resultado final: [-4, -2, -1, 0, 1, 5, 9]
+
+Conjunto H: original = [1]
+Resultado final: [1]
+
+Conjunto I: original = []
+Resultado final: []
+
+=== Ordenamiento usando el algoritmo Burbuja ===
+Conjunto A: original = [8, 3, 6, 3, 9]
+Resultado final: [3, 3, 6, 8, 9]
+
+Conjunto B: original = [5, 4, 3, 2, 1]
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto C: original = [1, 2, 3, 4, 5]
+Resultado final: [1, 2, 3, 4, 5]
+
+Conjunto D: original = [2, 2, 2, 2]
+Resultado final: [2, 2, 2, 2]
+
+Conjunto E: original = [9, 1, 8, 2]
+Resultado final: [1, 2, 8, 9]
+
+Conjunto F: original = [-3, -1, 0, 2]
+Resultado final: [-3, -1, 0, 2]
+
+Conjunto G: original = [5, 9, -4, 0, -1, 1, -2]
+Resultado final: [-4, -2, -1, 0, 1, 5, 9]
+
+Conjunto H: original = [1]
+Resultado final: [1]
+
+Conjunto I: original = []
+Resultado final: []
+
